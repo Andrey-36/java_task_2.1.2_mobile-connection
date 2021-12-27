@@ -1,9 +1,9 @@
-public class main {
+public class Main {
     public static void main(String[] arg) {
 
     //вход
         int balance = 100;
-        int replenishmentAmount = 1100;
+        int replenishmentAmount = 1120;
 
     //логика
         int bonus;
@@ -15,7 +15,7 @@ public class main {
         }
         System.out.println("Ваш бонус равен: " + bonus + " рублей");
 
-        int  totalAmount = balance + replenishmentAmount;
+        int  totalAmount = balance + replenishmentAmount + bonus;
         System.out.println("Итоговая сумма на вашем счету: " + totalAmount + " рублей");
     }
 }
